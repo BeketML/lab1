@@ -18,13 +18,13 @@ wait = WebDriverWait(driver, 15)
 username_input = wait.until(
     EC.presence_of_element_located((By.ID, "username"))
 )
-username_input.send_keys("230109008")
+username_input.send_keys("your id")
 
 # Password
 password_input = wait.until(
     EC.presence_of_element_located((By.ID, "password"))
 )
-password_input.send_keys("ml25766226")
+password_input.send_keys("your pass")
 
 # Login button
 login_button = wait.until(
